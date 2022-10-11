@@ -23,3 +23,8 @@ insert into Address_Book (first_name,last_name,Address,city,state,zip,phoneNumbe
 values('yash','gaikwad','nanapeth','Pune','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
 insert into Address_Book (first_name,last_name,Address,city,state,zip,phoneNumber,email) 
 values('yogita','Bhandare','Hadapsar','Pune','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
+
+---UC4-Edit_contact---
+Update ADDRESS_BOOK
+set first_name='Abhi' where id = 1;
+select * from Address_Book;

@@ -34,3 +34,5 @@ select * from Address_Book
 --UC6-Retrive data from table--
 select first_name,last_name,Address,city,state,zip,email from Address_Book where Address='Hadapsar';
 --UC7-Understand size of address book by city or state---
+select CoUNT(*) as StateCount, state from Address_Book group by state;
+select count(*) as CityCount, city from Address_Book group by city;

@@ -20,9 +20,9 @@ select * from Address_Book
 insert into Address_Book (first_name,last_name,Address,city,state,zip,phoneNumber,email) 
 values('yogesh','chavan','khadki','Pune','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
 insert into Address_Book (first_name,last_name,Address,city,state,zip,phoneNumber,email) 
-values('yash','gaikwad','nanapeth','Pune','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
+values('yash','gaikwad','nanapeth','Mumbai','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
 insert into Address_Book (first_name,last_name,Address,city,state,zip,phoneNumber,email) 
-values('yogita','Bhandare','Hadapsar','Pune','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
+values('yogita','Bhandare','Hadapsar','Goa','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
 
 ---UC4-Edit_contact---
 Update Address_Book
@@ -33,3 +33,4 @@ delete from Address_Book where first_name = 'yogita';
 select * from Address_Book
 --UC6-Retrive data from table--
 select first_name,last_name,Address,city,state,zip,email from Address_Book where Address='Hadapsar';
+--UC7-Understand size of address book by city or state---

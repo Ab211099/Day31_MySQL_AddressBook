@@ -2,5 +2,22 @@
 create database Address_Book;
 
 use Address_Book;
+<<<<<<< HEAD
 
 
+=======
+---Create table---
+create table ADDRESS_BOOK
+(
+ Id int identity(1,1) primary key,
+ first_name varchar(250),
+ last_name varchar(200),
+  Address varchar(200),
+   city varchar(200),
+    state varchar(200),
+	 zip int,
+	 phoneNumber bigint,
+	 email varchar (250)
+
+);
+>>>>>>> UC2-Create_Table

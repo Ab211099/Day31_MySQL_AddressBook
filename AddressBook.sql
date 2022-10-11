@@ -28,3 +28,6 @@ values('yogita','Bhandare','Hadapsar','Pune','Maharashtra',411028,7972393594,'ab
 Update ADDRESS_BOOK
 set first_name='Abhi' where id = 1;
 select * from Address_Book;
+---UC5-Delete_Contact---
+delete from ADDRESS_BOOK where first_name = 'yogita';
+select * from ADDRESS_BOOK

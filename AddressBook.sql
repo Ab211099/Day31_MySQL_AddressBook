@@ -2,11 +2,7 @@
 create database Address_Book;
 
 use Address_Book;
-<<<<<<< HEAD
-
-
-=======
----Create table---
+---UC2-Create table---
 create table ADDRESS_BOOK
 (
  Id int identity(1,1) primary key,
@@ -18,6 +14,12 @@ create table ADDRESS_BOOK
 	 zip int,
 	 phoneNumber bigint,
 	 email varchar (250)
-
 );
->>>>>>> UC2-Create_Table
+---UC3-Insert Contact-
+select * from Address_Book
+insert into Address_Book (first_name,last_name,Address,city,state,zip,phoneNumber,email) 
+values('yogesh','chavan','khadki','Pune','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
+insert into Address_Book (first_name,last_name,Address,city,state,zip,phoneNumber,email) 
+values('yash','gaikwad','nanapeth','Pune','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
+insert into Address_Book (first_name,last_name,Address,city,state,zip,phoneNumber,email) 
+values('yogita','Bhandare','Hadapsar','Pune','Maharashtra',411028,7972393594,'abhibhavekar@gmail.com');
